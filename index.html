@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .about-section { display:flex; gap:24px; align-items:center; flex-wrap:wrap; }
+        .about-section img { max-width:100%; border-radius:10px; display:block; }
+        @media(max-width:768px) { .about-section { flex-direction:column; } }
+        .logo img { height:50px; width:auto; border-radius:5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/"><img src="/sentieri-di-liberta/images/logo.webp" alt="Logo"></a>
+        <!-- existing navigation here -->
+    </header>
+    <section id="my-story">
+        <h2>My Story</h2>
+        <div class="about-section">
+            <img src="/sentieri-di-liberta/images/balloons.jpg" alt="Balloons">
+            <p>Your story text here...</p>
+        </div>
+    </section>
+</body>
+</html>
